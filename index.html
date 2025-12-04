@@ -1219,43 +1219,6 @@
         </div>
     </section>
 
-    <!-- 💌 Feedback Section -->
-    <section class="feedback-section">
-        <div class="feedback-icon">💌</div>
-        <h2>Send us <span style="color: #FF9EBC;">Feedback</span></h2>
-        <p>We'd love to hear what you think about Kala Billa!</p>
-        
-        <form id="feedbackForm">
-            <div class="form-group">
-                <label for="discordUsername"><i class="fas fa-user"></i> Discord Username</label>
-                <input type="text" id="discordUsername" placeholder="e.g., YourName#1234" required>
-            </div>
-
-            <div class="form-group">
-                <label for="serverLink"><i class="fas fa-link"></i> Server Link (Optional)</label>
-                <input type="url" id="serverLink" placeholder="https://discord.gg/...">
-            </div>
-
-            <div class="form-group">
-                <label for="feedbackText"><i class="fas fa-comments"></i> Your Feedback</label>
-                <textarea id="feedbackText" placeholder="Tell us what you think... suggestions, bugs, or just love notes! 💕" required></textarea>
-            </div>
-
-            <!-- reCAPTCHA -->
-            <div class="captcha-container">
-                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" data-callback="onCaptchaSuccess" data-expired-callback="onCaptchaExpired"></div>
-            </div>
-
-            <div class="submit-group">
-                <button type="submit" id="sendBtn" class="btn btn-primary" disabled>
-                    <i class="fas fa-paper-plane"></i> Send Feedback
-                </button>
-            </div>
-
-            <div id="statusMsg"></div>
-        </form>
-    </section>
-
     <!-- Commands Section -->
     <section id="commands" class="commands-section">
         <div class="section-title">
